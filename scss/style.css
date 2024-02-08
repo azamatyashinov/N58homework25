@@ -1,0 +1,262 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.contianer {
+  padding: 0 20px;
+  margin: 0 auto;
+  width: 1360px;
+  max-width: 100%;
+}
+
+.dark  {
+  background: rgb(230, 230, 243) ;
+}
+
+.dark  * {
+  color: rgb(0, 0, 0) !important;
+
+}
+/* header{
+  position: fixed;
+  z-index: 10;
+} */
+
+.botton{
+  
+
+  background:  linear-gradient( to right,rgb(79, 188, 255), rgb(79, 188, 255) 100%); 
+}
+
+.nav{
+  
+  padding: 20px 0;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+
+}
+.header-links{
+  width: 650px;
+  max-width: 100%;
+  display: flex;
+  justify-content: space-around;
+  gap: 8px;
+}
+
+.header-link{
+  text-decoration: none;
+  font-family: Orbitron;
+font-size: 16px;
+font-weight: 400;
+line-height: 26px;
+letter-spacing: 0em;
+text-align: left;
+color: #FFFFFF;
+}
+.contact-btn{
+  margin-left: 72px;
+  width: 178px;
+  height: 62px;
+  left: 72.02px;
+  font-family: orbitron ;
+  background-color:  rgb(79, 188, 255);
+  border: 1px solid #FFFFFF;
+  color: #FFFFFF;
+
+}
+
+.btn-moon{
+  border: none;
+  
+}
+.moon{
+  display: flex;
+  align-items: center;
+
+}
+
+/* main start///////////////////////// */
+.section-top{
+  background:  linear-gradient( to right,rgb(0, 0, 0) 50%, rgb(79, 188, 255) 50%); 
+
+}
+
+.section-top-cards{
+  display: flex;
+  padding-top: 180px;
+}
+
+.top-card-1{
+  width: 656px;
+}
+.olov{
+  display: flex;
+  align-items: center;
+}
+
+h5{
+  font-family: Orbitron;
+font-size: 16px;
+font-weight: 400;
+line-height: 16px;
+letter-spacing: 0em;
+text-align: left;
+color: #57B8FF;
+
+}
+h1{
+  padding-top: 30px;
+  font-family: Orbitron;
+font-size: 72px;
+font-weight: 400;
+line-height: 86px;
+letter-spacing: 0em;
+text-align: left;
+color: #FFFFFF;
+}
+
+p-1{
+  display: block;
+  padding-top: 30px;
+  color: #999999;
+  font-family: Orbitron;
+font-size: 18px;
+font-weight: 400;
+line-height: 28px;
+letter-spacing: 0em;
+text-align: left;
+
+}
+
+.section-2{
+  background-color: #FDD04A;
+  
+}
+.content-p{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.h1{
+  padding-top: 100px;
+  font-family: Orbitron;
+font-size: 48px;
+font-weight: 400;
+line-height: 58px;
+letter-spacing: 0em;
+text-align: center;
+color: #222730;
+
+}
+.p{
+  padding-top: 50px;
+  width: 576px;
+  font-family: Orbitron;
+font-size: 16px;
+font-weight: 400;
+line-height: 26px;
+letter-spacing: 0em;
+text-align: center;
+color: #555555;
+
+}
+.homiy{
+  display: flex;
+  justify-content: space-around;
+  padding-top: 40px;
+  padding-bottom: 50px;
+  flex-wrap: wrap;
+}
+
+/* section3 */
+
+.section-3{
+  background-image: url(../images/fon1.png);
+}
+
+.section-3-content{
+  padding-top: 80px;
+  flex-direction: column;
+  padding-top: 80px;
+ display: flex;
+ justify-content: center;
+ align-items: center;
+  
+  
+}
+
+.section-3-h1{
+  width: 716px;
+  font-family: Orbitron;
+font-size: 64px;
+font-weight: 400;
+line-height: 74px;
+letter-spacing: 0em;
+text-align: center;
+color: #FFFFFF;
+}
+
+.section-3-h2{
+  margin-bottom: 20px;
+  padding-top: 30px;
+  width: 698px;
+  font-family: Orbitron;
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 32px;
+  letter-spacing: 0em;
+  text-align: center;
+color: #dfdfdf;  
+}
+
+.section-3-card1{
+  margin-top: 20px;
+  width: 642.46px;
+height: 212px;
+top: -0.42px;
+background: #FFFFFF26;
+border-radius: 8px;
+
+}
+
+.card1-group1{
+  display: flex;
+  align-items: center;
+  padding-top: 30px;
+  padding-left: 30px;
+
+}
+.card-h1{
+  padding-left: 20px;
+  font-family: Orbitron;
+font-size: 32px;
+font-weight: 400;
+line-height: 42px;
+letter-spacing: 0em;
+text-align: left;
+color: #FFFFFF;
+}
+.section-3-card1-p{
+  padding-top: 20px;
+  padding-left: 80px;
+  font-family: Orbitron;
+font-size: 18px;
+font-weight: 400;
+line-height: 28px;
+letter-spacing: 0em;
+text-align: left;
+color: #dfdfdf;
+
+}
+
+.section-3-cards{
+  flex-wrap: wrap;
+  padding-bottom: 60px;
+  display: flex;
+  justify-content: space-between;
+}
