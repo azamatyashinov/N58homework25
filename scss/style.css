@@ -38,6 +38,11 @@
   justify-content: space-between;
 
 }
+
+.shopping{
+  width: 40px;
+  height: 40px;
+}
 .header-links{
   width: 650px;
   max-width: 100%;
