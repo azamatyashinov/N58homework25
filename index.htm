@@ -152,15 +152,22 @@
             </div>
         </div>
 
+
+        
     </main>
 
+<div id="loading">
+        <div class="loading-spinner"></div>
+</div>
     <footer>
 
-        <script>let modeBtn = document.getElementById("light-dark");
+        <script>
+            const loading = document.getElementById("loading");
+window.addEventListener("load", () => {
+  loading.classList.add('loading-none');
+}); 
 
-            modeBtn.addEventListener("click", function () {
-              document.body.classList.toggle("dark");
-            });</script>
+            </script>
     </footer>
 </body>
-</html>
+</html> 

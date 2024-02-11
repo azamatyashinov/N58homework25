@@ -1,5 +1,5 @@
-let modeBtn = document.getElementById("light-dark");
+const loading = document.getElementById("loading");
+window.addEventListener("load", () => {
+  loading.classList.add('loading-none');
+}); 
 
-modeBtn.addEventListener("click", function () {
-  document.body.classList.toggle("dark");
-});
